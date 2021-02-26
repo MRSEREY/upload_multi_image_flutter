@@ -1,0 +1,20 @@
+name: upload_multi_image
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  multi_image_picker: ^4.7.15
+  flutter_image_compress: ^0.7.0
+  dio: ^3.0.10
+  path_provider: ^1.6.27
+  flutter_absolute_path: ^1.0.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
